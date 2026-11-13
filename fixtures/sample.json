@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "metadata": {
+    "data_version": "sample-1"
+  },
+  "collections": {
+    "sessions": [
+      {
+        "id": "s1",
+        "revision": 1,
+        "visitor": "u1",
+        "stratum": "日常",
+        "available": [
+          "工坊",
+          "茶室"
+        ],
+        "chosen": [
+          "工坊"
+        ],
+        "weight": 2
+      },
+      {
+        "id": "s2",
+        "revision": 1,
+        "visitor": "u2",
+        "stratum": "节庆",
+        "available": [
+          "茶室"
+        ],
+        "chosen": [
+          "茶室"
+        ],
+        "weight": 1
+      }
+    ]
+  }
+}
