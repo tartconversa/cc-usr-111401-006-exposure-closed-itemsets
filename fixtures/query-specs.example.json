@@ -1,0 +1,20 @@
+[
+  {
+    "name": "rule-gongfang-chashi",
+    "type": "rule",
+    "antecedent": ["工坊"],
+    "consequent": ["茶室"]
+  },
+  {
+    "name": "closed-weight-1",
+    "type": "closed_patterns",
+    "min_weight": 1
+  },
+  {
+    "name": "closed-rate-half",
+    "type": "closed_patterns",
+    "min_rate": 0.5,
+    "max_nodes": 100000,
+    "domain_id_cap": 100
+  }
+]
